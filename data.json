@@ -1,0 +1,20 @@
+{
+  "lotes": [
+    {
+      "linea": "Línea 1",
+      "material": "Plástico",
+      "producido": 1000,
+      "merma": 30,
+      "porcentaje": 3.0,
+      "estado": "Normal"
+    },
+    {
+      "linea": "Línea 2",
+      "material": "Metal",
+      "producido": 500,
+      "merma": 40,
+      "porcentaje": 8.0,
+      "estado": "Alerta"
+    }
+  ]
+}

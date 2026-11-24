@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>OptiMerma - Control Industrial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Control de Mermas Industriales</h1>
+
+    <!-- Formulario sencillo para registrar -->
+    <div class="caja">
+        <h2>Registrar Nuevo Lote</h2>
+        <form id="formulario">
+            <label>Línea de Producción:</label><br>
+            <input type="text" id="linea" required><br><br>
+
+            <label>Material:</label><br>
+            <input type="text" id="material" required><br><br>
+
+            <label>Cantidad Producida (kg):</label><br>
+            <input type="number" id="producido" required><br><br>
+
+            <label>Cantidad de Merma (kg):</label><br>
+            <input type="number" id="merma" required><br><br>
+
+            <button type="submit">Guardar Lote</button>
+        </form>
+    </div>
+
+    <!-- Tabla sencilla para mostrar datos -->
+    <div class="caja">
+        <h2>Lista de Lotes</h2>
+        <table id="tabla">
+            <thead>
+                <tr>
+                    <th>Línea</th>
+                    <th>Material</th>
+                    <th>Producido</th>
+                    <th>Merma</th>
+                    <th>% Merma</th>
+                    <th>Estado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Los datos se cargan aquí con JavaScript -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
